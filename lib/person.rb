@@ -34,7 +34,7 @@ class Person
       hygiene < 10 
       @hygiene = 0 
     else 
-      @hygiene = happiness 
+      @hygiene = hygiene 
     end 
   end 
   
