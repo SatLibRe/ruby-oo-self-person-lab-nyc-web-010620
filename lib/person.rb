@@ -57,6 +57,10 @@ class Person
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end 
   
-  
+  def work_out 
+    @happiness += 2 
+    self.happiness=(@happiness)
+    return 
+  end 
   
 end 
