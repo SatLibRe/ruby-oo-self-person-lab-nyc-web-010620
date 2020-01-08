@@ -40,7 +40,7 @@ class Person
   
   def clean? 
     if @hygiene > 7 
-      true 
+      return true 
     end 
     false 
   end 
