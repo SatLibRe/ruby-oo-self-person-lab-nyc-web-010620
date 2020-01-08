@@ -16,6 +16,7 @@ class Person
   
   def happiness=(happiness)
     @happiness = happiness
+    happiness.max = 10
   end 
   
   def hygiene=(hygiene)
