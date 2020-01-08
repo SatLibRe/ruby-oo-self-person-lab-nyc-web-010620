@@ -39,10 +39,7 @@ class Person
   end 
   
   def clean? 
-    if @hygiene > 7 
-      return true 
-    end 
-    false 
+   @hygiene > 7 ? true : false 
   end 
   
   def happy? 
