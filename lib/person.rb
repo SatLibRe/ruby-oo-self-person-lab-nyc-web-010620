@@ -38,4 +38,8 @@ class Person
     end 
   end 
   
+  def clean? 
+    if 
+  end 
+  
 end 
