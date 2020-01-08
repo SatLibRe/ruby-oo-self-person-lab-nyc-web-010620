@@ -1,7 +1,7 @@
 class Person 
-  def initialize(name,bank_account = 25, )
+  def initialize(name)
     @name = name 
-    @bank_account = bank_account
+    @bank_account = 25
     
   end 
 end 
