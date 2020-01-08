@@ -1,7 +1,7 @@
 class Person 
   
-  attr_accessor :name
-  attr_reader :bank_account,:happiness,:hygiene
+  attr_accessor 
+  attr_reader :name,:happiness,:hygiene
   
   def initialize(name)
     @name = name 
