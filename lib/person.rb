@@ -68,7 +68,9 @@ class Person
   def call_friend(friend)
     self.happiness += 3 
     friend.happiness += 3 
-    if friend 
+    if friend.name == "Felix"
+    return ""
+    end
   end 
   
 end 
