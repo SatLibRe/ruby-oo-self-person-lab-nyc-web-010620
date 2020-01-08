@@ -15,7 +15,6 @@ class Person
   end 
   
   def happiness=(happiness)
-    @happiness = happiness
     if happiness > 10 
       @happiness = 10 
     elsif
@@ -27,7 +26,6 @@ class Person
   end 
   
   def hygiene=(hygiene)
-    @hygiene = hygiene
     if hygiene > 10 
       @hygiene = 10 
     elsif
