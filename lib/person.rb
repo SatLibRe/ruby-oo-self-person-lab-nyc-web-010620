@@ -65,8 +65,10 @@ class Person
     return "♪ another one bites the dust ♫"
   end 
   
-  def call_friend 
-    
+  def call_friend(friend)
+    self.happiness += 3 
+    friend.happiness += 3 
+    if friend 
   end 
   
 end 
