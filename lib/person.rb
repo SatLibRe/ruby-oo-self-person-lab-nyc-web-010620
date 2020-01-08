@@ -60,7 +60,7 @@ class Person
   def work_out 
     @happiness += 2 
     self.happiness=(@happiness)
-    return 
+    return "♪ another one bites the dust ♫"
   end 
   
 end 
