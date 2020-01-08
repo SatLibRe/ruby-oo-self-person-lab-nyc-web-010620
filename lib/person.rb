@@ -81,7 +81,7 @@ class Person
       friend.happiness += 2
       return "blah blah sun blah rain"
     else 
-      
+      return "blah blah blah blah blah"
     end 
     
   end 
