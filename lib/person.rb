@@ -69,7 +69,7 @@ class Person
     self.happiness += 3 
     friend.happiness += 3 
     if friend.name == "Felix"
-    return ""
+    return "Hi #{friend.name}! It's #{self.name}. How are you?"
     end
   end 
   
